@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Take a Break</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="close-break" class="close-break" aria-label="Close">X</button>
+
+    <div class="breakDiv">
+        <img src="./assets/break.gif" class="break-gif" alt="Take a break">
+        <h1>TAKE AN EYE BREAK</h1>
+        <p>Please rest your eyes for a moment.</p>
+    </div>
+
+    <script>
+        document.getElementById("close-break").addEventListener("click", () => {
+            window.close();
+        });
+    </script>
+</body>
+</html>
